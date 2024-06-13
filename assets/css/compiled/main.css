@@ -15,27 +15,27 @@ body.zen-mode-enable {
 }
 
 .important-note {
-  border-left: 4px solid #eb6f92;
-  padding: 10px;
-  margin: 20px 0;
-  font-weight: semibold;
-  border-radius: 5px;
-  color: #eb6f92;
+  border-left: 4px solid #eb6f92 !important;
+  padding: 10px !important;
+  margin: 20px 0 !important;
+  font-weight: semibold !important;
+  border-radius: 5px !important;
+  color: #eb6f92 !important;
 }
 
 .important-title {
-  color: #eb6f92;
-  font-weight: bold;
+  color: #eb6f92 !important;
+  font-weight: bold !important;
 }
 
 .small-icon {
-  width: 20px;
-  fill: #eb6f92;
+  width: 20px !important;
+  fill: #eb6f92 !important;
 }
 
 .note-title {
-  display: flex;
-  gap: .75rem;
+  display: flex !important;
+  gap: .75rem !important;
 }
 
 
