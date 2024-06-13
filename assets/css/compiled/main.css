@@ -14,6 +14,31 @@ body.zen-mode-enable {
   }
 }
 
+.important-note {
+  border-left: 4px solid #eb6f92;
+  padding: 10px;
+  margin: 20px 0;
+  font-weight: semibold;
+  border-radius: 5px;
+  color: #eb6f92;
+}
+
+.important-title {
+  color: #eb6f92;
+  font-weight: bold;
+}
+
+.small-icon {
+  width: 20px;
+  fill: #eb6f92;
+}
+
+.note-title {
+  display: flex;
+  gap: .75rem;
+}
+
+
 /*! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com */
 
 /*
@@ -706,7 +731,7 @@ select {
   --tw-contain-size: ;
   --tw-contain-layout: ;
   --tw-contain-paint: ;
-  --tw-contain-style: 
+  --tw-contain-style:
 }
 
 ::backdrop {
@@ -760,7 +785,7 @@ select {
   --tw-contain-size: ;
   --tw-contain-layout: ;
   --tw-contain-paint: ;
-  --tw-contain-style: 
+  --tw-contain-style:
 }
 
 .container {
@@ -799,7 +824,7 @@ select {
 
 .prose {
   color:var(--tw-prose-body);
-  max-width:65ch;
+  max-width:75ch;
 }
 
 .prose :where(p):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
@@ -2000,7 +2025,7 @@ select {
 }
 
 .max-w-prose {
-  max-width:65ch
+  max-width:75ch
 }
 
 .max-w-xl {
